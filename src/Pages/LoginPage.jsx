@@ -1,8 +1,18 @@
 import { useState } from 'react';
 import React from 'react';
 import './Login.css';
+import { useNavigate } from 'react-router-dom';
 
  const Login = (props) => {
+    const history = useNavigate();
+
+    const handleRedirectToRegister = () => {
+ 
+        history.push('/register');
+    };
+
+
+
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
 
@@ -22,10 +32,12 @@ import './Login.css';
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 <button type="submit">Log In</button>
             </form>
-            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
+            <button className="link-btn" onClick={handleRedirectToRegister}>
+                Don't have an account? Register here.
+            </button>
         </div>
     
     )
 }
 
-export default Login
+export default Login;

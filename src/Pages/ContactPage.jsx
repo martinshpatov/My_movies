@@ -21,7 +21,7 @@ const Contact = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
 
-        <button type="submit">Submit</button>
+        <button type="submit" style={{ color: '#f9d3b4', backgroundColor: 'grey' }}>Submit</button>
       </form>
     </section>
   </>

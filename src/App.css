@@ -229,3 +229,29 @@ h1 {
     margin: 1rem;
   }
 }
+
+
+
+
+.app__navbar-links {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  
+}
+
+.app__navbar-links li {
+  margin-right: 15px; 
+}
+
+.app__navbar-links li a {
+  text-decoration: none; 
+  color: #f9d3b4;
+  font-weight: bold; 
+  font-size: 16px; 
+}
+
+.app__navbar-links li a:hover {
+  color: #edeae7; 
+}

@@ -1,36 +1,35 @@
-
 import React from 'react';
 
-
 const About = () => {
-  return (
+    return (
+        <div>
+            <h1 style={{ color: 'blue' }}>Details</h1>
+            <div>
+                <h2 style={{ color: 'green' }}>Movie Details</h2>
 
-    <body>
+                <p style={{ color: 'white' }}>
+                    Welcome to the Movie Details page! Here, you'll find in-depth information about your favorite movies, including key details that enrich your viewing experience. Whether you're a film enthusiast, a casual moviegoer, or just curious about the latest releases, this page is your go-to source for comprehensive movie information.
+                </p>
 
-<h1>Details</h1>
-<h2> Movie Details
+                <h2 style={{ color: 'green' }}>What to Expect</h2>
+                <ul>
+                    <li style={{ color: 'white' }}><strong>Release Year:</strong> Discover when the movie hit the big screen or streaming platforms.</li>
+                    <li style={{ color: 'white' }}><strong>Director:</strong> Learn about the creative mind behind the camera, shaping the film's vision.</li>
+                    <li style={{ color: 'white' }}><strong>Genre:</strong> Explore the primary genres that define the movie's style and tone.</li>
+              
+                </ul>
 
-Welcome to the Movie Details page! Here, you'll find in-depth information about your favorite movies, including key details that enrich your viewing experience. Whether you're a film enthusiast, a casual moviegoer, or just curious about the latest releases, this page is your go-to source for comprehensive movie information.
+                <h2 style={{ color: 'green' }}>How to Use</h2>
+                <p style={{ color: 'white' }}>
+                    Simply click on the movie title or poster to access the detailed information. Whether you're planning your next movie night or looking for background details after watching, this page has you covered.
+                </p>
 
-## What to Expect
-
-- **Release Year:** Discover when the movie hit the big screen or streaming platforms.
-- **Director:** Learn about the creative mind behind the camera, shaping the film's vision.
-- **Genre:** Explore the primary genres that define the movie's style and tone.
-- **Duration:** Find out how long the cinematic journey will captivate your attention.
-- **Rating:** Get insights into the film's critical and audience reception.
-- **Cast and Crew:** Delve into the talented individuals who brought the story to life.
-- **Synopsis:** Uncover the plot summary, providing a glimpse into the narrative without revealing spoilers.
-- **Trailer:** Watch the official trailer to get a taste of the movie's atmosphere and themes.
-
-## How to Use
-
-Simply click on the movie title or poster to access the detailed information. Whether you're planning your next movie night or looking for background details after watching, this page has you covered.
-
-Enjoy your exploration of movie details, and may it enhance your appreciation for the art of filmmaking!
-</h2>
-</body>
-  )
+                <p style={{ color: 'white' }}>
+                    Enjoy your exploration of movie details, and may it enhance your appreciation for the art of filmmaking!
+                </p>
+            </div>
+        </div>
+    );
 };
 
 export default About;

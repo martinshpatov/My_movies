@@ -1,26 +1,4 @@
-.App {
-    text-align: center;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
-  }
-  
-  .auth-form-container, .login-form, .register-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  @media screen and (min-width: 600px) {
-    .auth-form-container {
-      padding: 5rem;
-      border: 1px solid white;
-      border-radius: 10px;
-      margin: 0.5rem;
-    }
-  }
+
   
   label {
     text-align: left;
@@ -40,7 +18,7 @@
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
-    color: #7439db;
+    color: #49db39;
   }
   
   .link-btn {
@@ -48,3 +26,17 @@
     color: white;
     text-decoration: underline;
   }
+
+  .auth-form-container {
+    color: #f9d3b4; 
+  }
+
+  .auth-form-container button {
+    color: #f9d3b4;
+    padding: 15px 20px; /* Adjust padding as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    background-color: transparent; /* Set background color to transparent */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+  }
+ 

@@ -26,3 +26,17 @@
     color: white;
     text-decoration: underline;
   }
+
+  .auth-form-container {
+    color: #f9d3b4; 
+  }
+
+  .auth-form-container button {
+    color: #f9d3b4;
+    padding: 15px 20px; 
+    font-size: 18px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+  }
+ 
